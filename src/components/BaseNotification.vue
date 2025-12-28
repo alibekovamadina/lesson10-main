@@ -12,7 +12,7 @@
             >
         </div>
         <div class="notification__info">
-            <h3>{{ title }}</h3>
+            <slot></slot>
             <p>{{ text }}</p>
         </div>
     </div>
